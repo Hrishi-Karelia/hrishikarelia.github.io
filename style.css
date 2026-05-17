@@ -1,16 +1,74 @@
 body {
-    font-family: Arial;
-    margin: 40px;
-    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
 }
 
-h1 {
-    color: #333;
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #cbd5e1;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2563eb;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.section {
+    padding: 50px 10%;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #1e293b;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .project {
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    color: #cbd5e1;
+}
+
+.project a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
 }
